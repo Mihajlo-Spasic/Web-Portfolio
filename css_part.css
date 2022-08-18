@@ -1,7 +1,12 @@
-.wrapper {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: aqua;
+* {
+}
+body {
+  background-image: linear-gradient(#ff6600, #ff8600, #ffa500 80%, #ffc04d);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 60px;
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
 }
