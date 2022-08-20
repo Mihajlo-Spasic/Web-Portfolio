@@ -1,32 +1,70 @@
 * {
+  margin: 0;
+}
+
+/* FREQUENTLY USED COLORS */
+:root {
+  --main-color: #ff6600;
+}
+.main-container {
+  width: 90%;
+  margin: auto;
 }
 body {
   background-image: linear-gradient(#ff6600, #ff8600, #ffa500 80%, #ffc04d);
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* SITE INTRODUCTION */
 .Introduction {
   font-size: 5.6rem;
   font-weight: 400;
   font-family: "Source Code Pro", monospace;
   color: #ffffff;
   text-align: center;
-  margin-bottom: 40px;
+
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
 }
 .Post-introduction {
   font-size: 2.5rem;
   font-family: "Source Code Pro", monospace;
   color: #e64402;
 }
-.footer-class {
-  display: flex;
-  align-items: center;
-}
+
 span {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: "Source Code Pro", monospace;
   color: #ffffff;
 }
 .div-divider {
   text-align: center;
+  margin-bottom: 10rem;
+}
+/* PAGE DIVIDER LINE  */
+.page-divider {
+  height: 1px;
+  width: 90%;
+  text-align: center;
+  border-bottom: 0.13rem solid var(--main-color);
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+/* SVG MANIPULATION */
+.ph-caret-circle-double-down-fill {
+  font-size: 7.4rem;
+  justify-content: center;
+  margin-bottom: 25rem;
+}
+.wrapper {
+  width: 144px;
+  margin: auto;
+}
+
+/* FOOTER - COPYRIGHT - GITHUB/LINKEDIN*/
+.footer-class {
+  display: flex;
+  align-items: center;
 }
