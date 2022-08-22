@@ -11,9 +11,29 @@
   margin: auto;
 }
 body {
-  background-image: linear-gradient(#ff6600, #ff8600, #ffa500 80%, #ffc04d);
+  background-image: linear-gradient(#ff6600, #ff8600, #ffa500 85%, #ffc04d);
   background-size: cover;
   background-repeat: no-repeat;
+}
+/* NAVIGATION */
+.header-nav {
+  width: 90%;
+  margin: 2.6rem auto auto;
+}
+
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  gap: 3.2rem;
+
+  font-family: "Mukta", sans-serif;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.8rem;
 }
 
 /* SITE INTRODUCTION */
@@ -58,13 +78,24 @@ span {
   justify-content: center;
   margin-bottom: 25rem;
 }
-.wrapper {
+.div-wrapper-svg {
   width: 144px;
   margin: auto;
+  margin-bottom: 12rem;
+}
+
+/* Embeded text */
+.Header-increment {
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Mukta", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
 }
 
 /* FOOTER - COPYRIGHT - GITHUB/LINKEDIN*/
 .footer-class {
+  width: 90%;
   display: flex;
-  align-items: center;
 }
